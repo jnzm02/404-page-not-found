@@ -1,0 +1,80 @@
+body {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    display: grid;
+    grid-template-rows: 10rem 1fr 10rem;
+    grid-gap: 10%;
+}
+
+.header {
+    max-width: 100%;
+    font-size: 2rem;
+    letter-spacing: -0.2rem;
+    padding-left: 6rem;
+    padding-top: 3rem;
+    font-weight: 600;
+    font-family: "Inconsolata", monospace;
+}
+
+.hero {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10rem;
+    max-width: 80%;
+    /* justify-items: center; */
+    font-family: "Inconsolata", monospace;
+}
+
+.hero-img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.hero-text {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.hero-title {
+    font-size: 4rem;
+}
+
+.hero-description {
+    font-size: 2rem;
+    max-width: 30rem;
+    font-weight: lighter;
+}
+
+.hero-button {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    background-color: #333;
+    text-decoration: none;
+    color: white;
+}
+
+.footer {
+    text-align: center;
+    color: #808080;
+    font-size: 1rem;
+    max-width: 100%;
+    font-family: 'Space Mono', monospace;
+}
+
+.footer a:link, a:visited, a:hover, a:active {
+    text-decoration: underline;
+    font-weight: bold;
+    color: #808080;
+}
+
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+}
